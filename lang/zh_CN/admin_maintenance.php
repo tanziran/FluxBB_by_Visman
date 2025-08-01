@@ -1,0 +1,40 @@
+<?php
+
+// admin_maintenance.php 使用的语言定义
+$lang_admin_maintenance = array(
+
+'Maintenance head'                 => '论坛维护',
+'Rebuild index subhead'           => '重建搜索索引',
+'Rebuild index info'              => '如果你在数据库中手动添加、编辑或删除了帖子，或者搜索出现问题，你应该重建搜索索引。为了获得最佳性能，重建期间应将论坛置于 %s。<strong>重建搜索索引可能需要很长时间，重建过程中会增加服务器负载！</strong>',
+'Posts per cycle label'           => '每周期帖子数',
+'Posts per cycle help'            => '每次页面刷新处理的帖子数量。例如，如果输入300，将处理三百个帖子，然后页面刷新。这是为了防止脚本在重建过程中超时。',
+'Starting post label'             => '起始帖子ID',
+'Starting post help'              => '开始重建的帖子ID。默认值是数据库中的第一个可用ID。通常你不需要更改这个。',
+'Empty index label'               => '清空索引',
+'Empty index help'                => '如果你想在重建前清空搜索索引，请选择此项（见下文）。',
+'Rebuild completed info'          => '一旦过程完成，你将重定向回此页面。如果你被迫中止重建过程，请记下最后处理的帖子ID，并在想要继续时在"起始帖子ID"中输入该ID+1（"清空索引"不能选中）。',
+'Rebuild index'                   => '重建索引',
+'Rebuilding search index'         => '重建搜索索引',
+'Rebuilding index info'           => '重建索引中。这可能是喝咖啡的好时机 :-)',
+'Processing post'                 => '处理帖子 <strong>%s</strong> ……',
+'Click here'                      => '点击这里',
+'Javascript redirect failed'      => '自动重定向失败。%s 继续……',
+'Posts must be integer message'   => '每周期帖子数必须是正整数。',
+'Days must be integer message'    => '清理天数必须是正整数。',
+'No old topics message'           => '没有 %s 天前的主题。请减少"天数"的值并重试。',
+'Posts pruned redirect'           => '帖子已清理。正在跳转……',
+'Prune head'                      => '清理',
+'Prune subhead'                   => '清理旧帖子',
+'Days old label'                  => '天数',
+'Days old help'                   => '主题必须"旧"多少天才能被清理。例如，如果输入30，每个不包含30天前帖子的主题将被删除。',
+'Prune sticky label'              => '清理置顶主题',
+'Prune sticky help'               => '启用时，置顶主题也将被清理。',
+'Prune from label'                => '从版块清理',
+'All forums'                      => '所有版块',
+'Prune from help'                 => '要清理帖子的版块。',
+'Prune info'                      => '谨慎使用此功能。<strong>清理的帖子永远无法恢复。</strong>为了获得最佳性能，清理期间应将论坛置于 %s。',
+'Confirm prune subhead'           => '确认清理帖子',
+'Confirm prune info'              => '你确定要清理 %s 中 %s 天前的所有主题（%s 个主题）吗？',
+'Confirm prune warn'              => '警告！清理帖子会永久删除它们。',
+
+);
